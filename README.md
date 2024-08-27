@@ -74,3 +74,11 @@ grant_type=client_credentials
 }
 ```
 
+## Usando o token para realizar chamadas na API Fluencypass
+
+Use o token de acesso para fazer solicitações autenticadas à API como no seguinte exemplo:
+
+```
+GET /api/resource
+Authorization: Bearer {access_token}
+```
